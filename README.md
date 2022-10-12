@@ -5,7 +5,7 @@ software que le confeccionemos un nuevo sistema que gestione sus Discos, Cassett
 Compact Discs, que vende a los coleccionistas y turistas que asisten a su local, en el centro 
 de la ciudad.
 
-# Consignas
+# Requisitos
 
 - Alta, baja y modificación de datos de un álbum musical.
 - Listado de álbumes disponibles por artista, en orden alfabético.
