@@ -1,2 +1,2 @@
-# Proyecto-Integrador-2-ISPC
+# Proyecto Integrador 2 ISPC
 prueba de descricion
