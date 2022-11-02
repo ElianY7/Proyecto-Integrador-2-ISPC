@@ -29,8 +29,8 @@ utiliza MySQL para la base de datos de la disqueria.
 
 # Integrantes :trophy:
 
-- Yordy Ruiz
-- Elian Yagüe
+- Yordy Ruiz - https://github.com/yordyruiz
+- Elian Yagüe - https://github.com/ElianY7
 
 # Paquetes Necesarios :inbox_tray:
 
