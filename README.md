@@ -16,10 +16,6 @@ En este trabajo realizamos una interfaz grafica con la ayuda de Tkinter en Pytho
 utiliza MySQL para la base de datos de la disqueria.
 
 
-<h1 align="center">
-  <img src="https://user-images.githubusercontent.com/105828833/199618216-79e169c8-2180-4b60-8553-da589ae67b11.png" width="500">
-
-
 
 # Requisitos
 
@@ -55,3 +51,5 @@ En Linux:
 ```bash
 sudo apt-get install python3-mysql.connector
 ```
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/105828833/199618216-79e169c8-2180-4b60-8553-da589ae67b11.png" width="500">
