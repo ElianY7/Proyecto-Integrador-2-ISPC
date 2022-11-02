@@ -24,7 +24,7 @@ de la ciudad.
 - Yordy Ruiz
 - Elian Yagüe
 
-#Paquetes Necesarios
+# Paquetes Necesarios
 
 ### Tkinter
 
