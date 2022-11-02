@@ -29,20 +29,20 @@ de la ciudad.
 TKINTER
 
 En Windows:
-
+```bash
 pip install tk
-
+```
 En Linux:
-
+```bash
 sudo apt-get install python3-tk
-
+```
 MySQL Connector
 
 En Windows:
-
+```bash
 pip install mysql-conector-python
-
+```
 En Linux:
-
+```bash
 sudo apt-get install python3-mysql.connector
-
+```
