@@ -17,7 +17,7 @@ utiliza MySQL para la base de datos de la disqueria.
 
 
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/105828833/199618216-79e169c8-2180-4b60-8553-da589ae67b11.png" width="500"></a>
+  <img src="https://user-images.githubusercontent.com/105828833/199618216-79e169c8-2180-4b60-8553-da589ae67b11.png" width="500">
 
 
 
