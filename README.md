@@ -2,12 +2,9 @@
   <br>
   <img src="https://user-images.githubusercontent.com/105828833/199614644-91da56d9-0773-4846-b92a-bcfa22a9caf8.png" alt="Markdownify" width="500"></a>
   <br>
-  Markdownify
+  Proyecto Integrador 2 ISPC
   <br>
 </h1>
-
-
-# Proyecto Integrador 2 ISPC
 
 Una conocida casa de música de la ciudad de Formosa capital solicitó a nuestra empresa de 
 software que le confeccionemos un nuevo sistema que gestione sus Discos, Cassettes y 
