@@ -46,3 +46,4 @@ En Linux:
 ```bash
 sudo apt-get install python3-mysql.connector
 ```
+![277577116_155669553578664_1169744736710124310_n](https://user-images.githubusercontent.com/105828833/199616475-b35a5e5a-e11e-471a-b435-844239c651f9.png)
