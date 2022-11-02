@@ -16,8 +16,8 @@ En este trabajo realizamos una interfaz grafica con la ayuda de Tkinter en Pytho
 utiliza MySQL para la base de datos de la disqueria.
 
 ![python](https://user-images.githubusercontent.com/105828833/199620234-882a6611-1fd3-4149-ae18-5bfa107872e4.png)
-![MySQL-logo](https://user-images.githubusercontent.com/105828833/199620239-111abb21-3fc1-4486-84bd-8bac7766fccc.png)
 
+<img src="https://user-images.githubusercontent.com/105828833/199620239-111abb21-3fc1-4486-84bd-8bac7766fccc.png" alt="ISPC" width="300"></a>
 
 
 # Requisitos :clipboard:
