@@ -2,7 +2,7 @@
   <br>
   <img src="https://user-images.githubusercontent.com/105828833/199615284-30649b98-18c2-4a0e-9328-b6440091ba8f.png" alt="ISPC" width="500"></a>
   <br>
-  Proyecto Integrador 2 ISPC
+  Proyecto Integrador 2
   <br>
 </h1>
 
@@ -15,21 +15,24 @@ de la ciudad.
 En este trabajo realizamos una interfaz grafica con la ayuda de Tkinter en Python 3. Ademas se
 utiliza MySQL para la base de datos de la disqueria.
 
+![python](https://user-images.githubusercontent.com/105828833/199620234-882a6611-1fd3-4149-ae18-5bfa107872e4.png)
+![MySQL-logo](https://user-images.githubusercontent.com/105828833/199620239-111abb21-3fc1-4486-84bd-8bac7766fccc.png)
 
 
-# Requisitos
+
+# Requisitos :clipboard:
 
 - Alta, baja y modificación de datos de un álbum musical.
 - Listado de álbumes disponibles por artista, en orden alfabético.
 - Listado por género musical.
 - Búsqueda por nombre de un álbum.
 
-# Integrantes
+# Integrantes :trophy:
 
 - Yordy Ruiz
 - Elian Yagüe
 
-# Paquetes Necesarios
+# Paquetes Necesarios :inbox_tray:
 
 ### Tkinter
 
