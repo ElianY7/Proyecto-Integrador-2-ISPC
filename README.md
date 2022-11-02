@@ -15,7 +15,7 @@ de la ciudad.
 En este trabajo realizamos una interfaz grafica con la ayuda de Tkinter en Python 3. Ademas se
 utiliza MySQL para la base de datos de la disqueria.
 
-<img src="https://user-images.githubusercontent.com/105828833/199620234-882a6611-1fd3-4149-ae18-5bfa107872e4.png" alt="ISPC" width="150"></a> <img src="https://user-images.githubusercontent.com/105828833/199620239-111abb21-3fc1-4486-84bd-8bac7766fccc.png" alt="ISPC" width="150"></a>
+<img src="https://user-images.githubusercontent.com/105828833/199620234-882a6611-1fd3-4149-ae18-5bfa107872e4.png" alt="ISPC" width="250"></a> <img src="https://user-images.githubusercontent.com/105828833/199620239-111abb21-3fc1-4486-84bd-8bac7766fccc.png" alt="ISPC" width="250"></a>
 
 
 
