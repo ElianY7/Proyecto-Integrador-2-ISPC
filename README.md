@@ -11,8 +11,8 @@ Una conocida casa de música de la ciudad de Formosa capital solicitó a nuestra
 software que le confeccionemos un nuevo sistema que gestione sus Discos, Cassettes y 
 Compact Discs, que vende a los coleccionistas y turistas que asisten a su local, en el centro 
 de la ciudad.
+
 <h1 align="center">
-  <br>
   <img src="https://user-images.githubusercontent.com/105828833/199618216-79e169c8-2180-4b60-8553-da589ae67b11.png" width="500"></a>
 </h1>
 
