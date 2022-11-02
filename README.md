@@ -26,7 +26,7 @@ de la ciudad.
 
 # Paquetes Necesarios
 
-## Tkinter
+### Tkinter
 
 En Windows:
 ```bash
@@ -36,7 +36,7 @@ En Linux:
 ```bash
 sudo apt-get install python3-tk
 ```
-## MySQL Connector
+### MySQL Connector
 
 En Windows:
 ```bash
@@ -46,4 +46,3 @@ En Linux:
 ```bash
 sudo apt-get install python3-mysql.connector
 ```
-![277577116_155669553578664_1169744736710124310_nss](https://user-images.githubusercontent.com/105828833/199616644-9730f43c-9644-4a81-884f-2f84f693269d.png)
