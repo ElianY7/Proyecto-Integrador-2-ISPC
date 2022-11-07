@@ -66,7 +66,7 @@ tabla.heading(2, text="Código", anchor="center")
 tabla.heading(3, text="Nombre", anchor="center")
 tabla.heading(4, text="Interprete", anchor="center")
 tabla.heading(5, text="Genero", anchor="center")
-tabla.heading(6, text="Cantidad", anchor="center")
+tabla.heading(6, text="Temas", anchor="center")
 tabla.heading(7, text="Discografia", anchor="center")
 tabla.heading(8, text="Formato", anchor="center")
 tabla.heading(9, text="Fecha", anchor="center")
@@ -293,6 +293,16 @@ def TablaDiscografia():
         tabladiscografia.insert("", i, text="", values=(ro[0],ro[1]))
         i += 1
 
+def TablaFormato():
+    for row in tablaformato.get_children():
+        tablaformato.delete(row)
+
+    con5 = Conectar()
+    resultados = con5.MostrarFormato()
+    i = 0
+    for ro in resultados:
+        tablaformato.insert("", i, text="", values=(ro[0],ro[1]))
+        i += 1
 
 #######################   TABLA DE GENERO   #######################
 
@@ -344,6 +354,23 @@ tabladiscografia.heading(2, text="Discografia", anchor="center")
 
 TablaDiscografia()
 tabladiscografia.grid(row=0, column=2, padx=30, pady=3)
+
+#######################   TABLA DE FORMATO   #######################
+
+tablaformato = ttk.Treeview(tab3, columns=(1,2), show="headings", height="4")
+
+# Configuracion de las columnas de la tabla de formato
+tablaformato.column(1,width=30, minwidth=30, anchor="center")
+tablaformato.column(2,width=150, minwidth=150, anchor="center")
+
+
+# Esto es para el renglon de los encabezados de la tabla de formato
+tablaformato.heading(1, text="ID", anchor="center")
+tablaformato.heading(2, text="Formato", anchor="center")
+
+
+TablaFormato()
+tablaformato.grid(row=4, column=2, padx=30, pady=3, rowspan=3)
 
 
 #######################   AGERGAR INTERPRETE, GENERO Y DISCOGRAFIA   #######################
