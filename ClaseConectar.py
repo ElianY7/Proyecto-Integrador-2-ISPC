@@ -51,7 +51,7 @@ class Conectar():
         
         try:
             cursor = self.conexion.cursor()
-            cursor.execute("""SELECT * FROM Genero""") 
+            cursor.execute("""SELECT * FROM Genero ORDER BY nombre""") 
 
             resultados = cursor.fetchall()
             cursor.close()
@@ -60,7 +60,7 @@ class Conectar():
             return resultados
 
         except mysql.connector.Error as ex:
-            print("Error al mostrar genero.")
+            print("Error al mostrar Género.")
             print(ex)
 
    
@@ -68,7 +68,7 @@ class Conectar():
         
         try:
             cursor = self.conexion.cursor()
-            cursor.execute("""SELECT * FROM Interprete""") 
+            cursor.execute("""SELECT * FROM Interprete ORDER BY nombre""") 
 
             resultados = cursor.fetchall()
             cursor.close()
@@ -77,7 +77,7 @@ class Conectar():
             return resultados
 
         except mysql.connector.Error as ex:
-            print("Error al mostrar Interprete.")
+            print("Error al mostrar Intérprete.")
             print(ex)
 
 
@@ -85,7 +85,7 @@ class Conectar():
 
         try:
             cursor = self.conexion.cursor()
-            cursor.execute("""SELECT * FROM Discografia""") 
+            cursor.execute("""SELECT * FROM Discografia ORDER BY nombre""") 
 
             resultados = cursor.fetchall()
             cursor.close()
@@ -95,6 +95,23 @@ class Conectar():
 
         except mysql.connector.Error as ex:
             print("Error al mostrar Discografia.")
+            print(ex)
+
+
+    def MostrarFormato(self):
+
+        try:
+            cursor = self.conexion.cursor()
+            cursor.execute("""SELECT * FROM Formato""") 
+
+            resultados = cursor.fetchall()
+            cursor.close()
+            self.conexion.close()
+
+            return resultados
+
+        except mysql.connector.Error as ex:
+            print("Error al mostrar Formato.")
             print(ex)
 
 
@@ -110,6 +127,7 @@ class Conectar():
             self.conexion.commit() 
             cursor.close() 
             self.conexion.close()
+            print("Album insertado correctamente")
 
         except Exception as ex:
             print("Error al intentar ingresar registro:" + str(ex))
@@ -166,6 +184,7 @@ class Conectar():
             self.conexion.commit()
             cursor.close()
             self.conexion.close()
+            print("Album actualizado")
 
         except Exception as ex:
             print("Error al intentar actualizar registro. " + str(ex))
@@ -182,6 +201,7 @@ class Conectar():
             self.conexion.commit()
             cursor.close()
             self.conexion.close()
+            print("Intérprete agregado correctamente")
 
         except Exception as ex:
             print("Error al intentar ingresar Artista:" + str(ex))
@@ -196,6 +216,7 @@ class Conectar():
             self.conexion.commit()
             cursor.close()
             self.conexion.close()
+            print("Género agregado correctamente")
 
         except Exception as ex:
             print("Error al intentar ingresar Genero:" + str(ex))
@@ -210,6 +231,7 @@ class Conectar():
             self.conexion.commit()
             cursor.close()
             self.conexion.close()
+            print("Discografía agregadoa correctamente")
 
         except Exception as ex:
             print("Error al intentar ingresar Discografia:" + str(ex))
