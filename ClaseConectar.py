@@ -231,7 +231,7 @@ class Conectar():
             self.conexion.commit()
             cursor.close()
             self.conexion.close()
-            print("Discografía agregadoa correctamente")
+            print("Discografía agregada correctamente")
 
         except Exception as ex:
             print("Error al intentar ingresar Discografia:" + str(ex))
